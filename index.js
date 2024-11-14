@@ -53,7 +53,7 @@ const pizzas = [
 
 const pizzasImpares = pizzas.filter ((pizza)=> pizza.id % 2 !== 0) 
 pizzasImpares.forEach ((pizza)=> 
-console.log('La ${pizza.nombre} tiene un id impar'));
+console.log(`La ${pizza.nombre} tiene un id impar`));
 
 
 //b) Responder: ¿Hay alguna pizza que valga menos de $600?
@@ -84,12 +84,12 @@ if (!pizzaBarata) {
 
 pizzas.forEach((pizza) =>
   console.log (
-    `Vení a probar nuestra ${pizza.nombre} por tan solo $${pizza.precio´}
+    `Vení a probar nuestra ${pizza.nombre} por tan solo $${pizza.precio}`
 ));
 
 //d) Todos los ingredientes de cada pizza (En cada iteración imprimir los ingredientes de la pizza que se esta recorriendo). 
 
 pizzas.forEach((pizza) => {
-  console.log (`Los ingredientes de la ${pizza.nombre} son:´);
+  console.log (`Los ingredientes de la ${pizza.nombre} son:`);
 pizza.ingredientes.forEach((ingrediente)=> console.log(ingrediente));
 });
