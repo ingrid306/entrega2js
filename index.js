@@ -58,7 +58,7 @@ console.log(`La ${pizza.nombre} tiene un id impar`));
 
 //b) Responder: ¿Hay alguna pizza que valga menos de $600?
 
-const precioMenorA600 (pizza) => pizza precio < 600;
+const precioMenorA600 = (pizza) => pizza.precio < 600;
 
 if (pizzas.some(precioMenonA600)) {
 
