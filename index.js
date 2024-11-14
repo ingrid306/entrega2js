@@ -60,7 +60,7 @@ console.log(`La ${pizza.nombre} tiene un id impar`));
 
 const precioMenorA600 = (pizza) => pizza.precio < 600;
 
-if (pizzas.some(precioMenonA600)) {
+if (pizzas.some(precioMenorA600)) {
 
 console.log("Hay pizzas con precio menor a $600");
 
